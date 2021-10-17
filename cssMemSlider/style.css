@@ -1,0 +1,52 @@
+.container {
+    width: 498px;
+    height: 498px;
+    margin: 249px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image {
+    width: 1992px;
+    height: 498px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0;
+}
+
+.button {
+    top: -20px;
+    position: relative;
+}
+
+.slider-button {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+#gif-1:target ~ .image {
+    left: 0px;
+}
+
+#gif-2:target ~ .image {
+    left: -498px;
+}
+
+#gif-3:target ~ .image {
+    left: -996px;
+}
+
+#gif-4:target ~ .image {
+    left: -1494px;
+}
