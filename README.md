@@ -1,1 +1,1 @@
-https://${VladimirSolo}.github.io/cssMemSlider/cssMemSlider/index.html
+https://VladimirSolo.github.io/cssMemSlider/cssMemSlider/index.html
